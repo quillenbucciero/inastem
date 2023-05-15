@@ -10,118 +10,189 @@ color: black;
 
 body {
 text-align: center;
+background-image: url('img/foto-tren.jpg');
+background-repeat: no-repeat;
+background-size: contain;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-position: relative;
-display: inline-block;
-padding-left: 0px;
-}
-/* Dropdown Button */
-.dropbtn {
-background-color: rgb(0, 0, 0);
-color: rgb(211, 205, 205);
-padding: 10px;
-font-size: 18px;
-border: none;
-border-radius: 10px;
 
+/* HOME HEADER */
+
+.header-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .logo {
+  width: 100px;
+  }
+  
+  .menu {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+  margin-right: 0px;
+  margin-left: 20%;
+  }
+  .menu a, li {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  }
+  .menu li {
+  padding: 0px 20px 0px 20px;  
+  }
+  .search-form {
+  text-align: right;
+  }
+  
+  /* MENU DESPLEGALE*/
+  .dropdown {  
+    display: none;   
+  }
+  
+  .title {
+    margin-top: 10%;
+    letter-spacing: 3px;
+    font-size: 45px;
+  }
+
+  
+/*SERVICIOS*/
+
+.productos-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-display: none;
-position: absolute;
-background-color: #000000;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(85, 74, 74, 0.2);
-z-index: 1;
-text-decoration: none;
-border-radius: 8px;
+
+.productos-item {
+  width: 30%;
 }
-/* Links inside the dropdown */
-.dropdown-content a {
-color: rgb(187, 187, 187);
-padding: 8px 12px;
-text-decoration: none;
-display: block;
+
+#contacto-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
 }
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: rgb(59, 59, 59);}
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
-/* Dropdown Button */
+.contacto-item {
+ 
+  width: 100%;
+ 
+}
+.contacto-sub-item {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.contacto-icons {
+  width: 30px;
+  padding: 5px;
+}
+
+.wsp {
+  width: 50px;
+}
+
+/*FOOTER*/
+
+footer ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta {
+  background-color: rgb(0, 0, 0);
+  color: rgb(211, 205, 205);
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
 
 
 
 
 /*Media queries*/
 /*Tablets*/
-@media (min-width: 768px){
+@media (max-width: 768px){
 
+  
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 0px;
+  }
+  /* Dropdown Button */
+  .dropbtn {
+  background-color: rgb(0, 0, 0);
+  color: rgb(211, 205, 205);
+  padding: 10px;
+  font-size: 18px;
+  border: none;  
+  }
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(85, 74, 74, 0.2);
+  z-index: 1;
+  text-decoration: none;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+  color: rgb(187, 187, 187);
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(59, 59, 59);}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+  /* Dropdown Button */
+  
+    .title {
+      font-size: medium;
+    }
+  
+    .menu {
+      display: none;
+    }
+
+    .productos-container {    
+      flex-direction: column;   
+    }
 
 
 }
 
 /* Desktop*/
-@media (min-width: 1024px) {
+@media (max-width: 435px) {
 
-
-/* HOME HEADER */
-
-.header-container {
-display: flex;
-width: 100%;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-}
-.logo {
-width: 100px;
-}
-
-.menu {
-display: flex;
-justify-content:center;
-flex-wrap: wrap;
-flex-direction: row;
-align-items: center;
-text-align: right;
-margin-right: 0px;
-margin-left: 20%;
-}
-.menu a, li {
-text-decoration: none;
-color: black;
-align-items: center;
-}
-.menu li {
-padding: 0px 20px 0px 20px;  
-}
-.search-form {
-text-align: right;
-}
-.search-form input, button {
-align-self: center;
-font-size: 15px;
-margin: 2px;
-padding: 15px;
-border: 0px ;
-border-radius: 15px;
-background-color: rgb(29, 29, 29);
-color:rgb(100, 100, 100);  
-}
-.search-form button{
-padding: 13px;
-}
-
-/* MENU DESPLEGALE*/
-.dropdown {  
-  display: none;   
-}
 
 
 }

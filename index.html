@@ -4,108 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/080691d60b.js" crossorigin="anonymous"></script>
 
     <title>Inastem</title>
-    <link rel="shortcut icon" href="../img/favicon.svg">
+    <link rel="shortcut icon" href="img/favicon.svg">
 </head>
 <body>
       <!--Header-->
     <header>
         <section class="header-container">
 
-        <a href="index.html"><img class="logo" src="../img/Logo.png" alt="logo"></a>
+        <a href="index.html"><img class="logo" src="img/Logo.png" alt="logo"></a>
 
         <div class="dropdown">
             <button class="dropbtn">Menu</button>
             <div class="dropdown-content">
                 <li> <a href="home.html"> Inicio </a></li>
-                <li> <a href="favourites.html">Nosotros </a></li>
-                <li><a href="shopping-cart.html">Productos</a></li>
-                <li><a href="contacto.html">contacto</a></li>
+                <li> <a href="html/nosotros.html">Nosotros </a></li>
+                <li><a href="html/productos.html">Productos</a></li>
+                <li><a href="#contacto-container">Contacto</a></li>
             </div>
         </div>
         <ul class="menu">
             <li> <a href="home.html"> Inicio </a></li>
             <li> <a href="favourites.html">Nosotros </a></li>
             <li><a href="shopping-cart.html">Productos</a></li>
-            <li><a href="contacto.html">contacto</a></li>
+            <li><a href="#contacto-container">Contacto</a></li>
         </ul>
-
-        <!--Search form-->
-        <form class="search-form" action="search-results.html" method="GET">
-            <input type="search" name="search" value=""  placeholder="Search in Webpage">
-            <button type="submit"><span class="material-symbols-outlined">
-                search
-                </span></button>
-        </form>
 
         </section>
        
     </header>
     <!--Header-->
 
-    <h2>Prodcutos y servicios</h2>
+    <p>Fábrica de ventanillas para ómnibus, trenes y ventanas especiales. Contamos con más de 20 años de experiencia en este sector, con atención personalizada y asesoramiento para cada uno de nuestros clientes. lo que ofrecemos es la fabricación y reparación de ventanillas de aluminio para colectivos, trenes y máquinas viales. Así también nuestro servicio cuenta con venta de vidrio templado, accesorios para ventanillas y burletes (entrega inmediata).</p>
+
+    <h2 class="title">Productos y Servicios</h2>
 
     <section class="productos-container">
 
         <article class="productos-item">
             <div>
+                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
+            </div>
+            <div>
                 <h3>NOMBRE PRODUCTO</h3>
                 <p>Descripción</p>
             </div>
-
         </article>
+
+        <article class="productos-item">
+            <div>
+                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
+            </div>
+            <div>
+                <h3>NOMBRE PRODUCTO</h3>
+                <p>Descripción</p>
+            </div>
+        </article>
+
+        <article class="productos-item">
+            <div>
+                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
+            </div>
+            <div>
+                <h3>NOMBRE PRODUCTO</h3>
+                <p>Descripción</p>
+            </div>
+        </article>
+
+
 
 
     </section>
 
-    <h2>Contacto</h2>
+    <h2 class="title">Contacto</h2>
 
-    <section class="contacto-container">
+    <section id="contacto-container">
+
+
+        <article class="contacto-item">
+             <div class="contacto-sub-item">
+            <img  class="contacto-icons" src="img/png/004-telefono.png" alt="Teléfono de línea"> 
+            <p>4663 2227</p>
+        </div>
+
+        <div class="contacto-sub-item">
+            <img  class="contacto-icons" src="img/png/008-telefono-inteligente.png" alt="Número de celular"> 
+            <p>+ 549 11 0000 0000</p>
+        </div>
+
+        <div class="contacto-sub-item">
+            <img  class="contacto-icons" src="img/png/007-correo-electronico-vacio.png" alt="Email"> 
+            <p>MAIL</p>
+        </div>
+
+        <div class="contacto-sub-item">
+            <img  class="contacto-icons" src="img/png/003-ubicacion.png" alt="Dirección"> 
+            <p>Rondeau 2044 - Villa de Mayo, Buenos Aires</p>
+        </div>
+        </article>
         
         <article class="contacto-item">
-            <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            <p>TELEFONO LINEA</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.1276113029553!2d-58.67804318501423!3d-34.49964895950561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca33374d18fb3%3A0x6ee42eb1ba002a94!2sRondeau%202044%2C%20B1614HMM%20Villa%20de%20Mayo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684161880507!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </article>
-
-        <article class="contacto-item">
-            <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            <p>+ 549 11 0000 0000</p>
-        </article>
-
-        <article class="contacto-item">
-            <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            <p>MAIL</p>
-        </article>
-
-        <article class="contacto-item">
-            <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            <p>DIRECCIÓN</p>
-        </article>
+       
+        
 
     </section>
 
+    <button class="cta">Solicitar un presupuesto</button>
 
-    <button>Solicitar un presupuesto</button>
+    <a href=""> <img  class="wsp" src="img/png/005-whatsapp.png" alt= "Click aquí para enviar mensaje"></a>
 
 
     <footer>
 
-        <ul>
+        <ul class="footer-menu">
             <li> <a href="home.html"> Inicio </a></li>
-            <li> <a href="favourites.html">Nosotros </a></li>
-            <li><a href="shopping-cart.html">Productos</a></li>
-            <li><a href="contacto.html">contacto</a></li>
+            <li> <a href="html/nosotros.html">Nosotros </a></li>
+            <li><a href="html/productos.html">Productos</a></li>
+            <li><a href="#contacto-container">Contacto</a></li>
         </ul>
 
         <ul class="redes">
-            <li> <a href="home.html"> Inicio </a></li>
-            <li> <a href="favourites.html">Nosotros </a></li>
-            <li><a href="shopping-cart.html">Productos</a></li>
-            <li><a href="contacto.html">contacto</a></li>
+            <li> <a href=""> <img class="contacto-icons" src="img/png/009-instagram-1.png" alt="Instagram de Inastem"> </a></li>
+            <li> <a href="https://www.facebook.com/inastem.dundich/"> <img class="contacto-icons" src="img/png/010-facebook-1.png" alt="Facebook de inastem"> </a></li>
+            <li><a href="https://twitter.com/inastem"> <img class="contacto-icons" src="img/png/011-gorjeo-1.png" alt="Twitter de Inastem"></a></li>
         </ul>
 
+        <ul class="terminos">
+            <li> <a href=""> Términos y condiciones</a></li>
+            <li> <a href="">Inastem 2023</a></li>
+            <li><a href="quiillenbucciero.com">Página hecha por Quillén Bucciero</a></li>
+        </ul>
+        <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.flaticon.es/autores/fathema-khanom" title="Fathema Khanom">Fathema Khanom</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div><div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pojok-d" title="pojok d">pojok d</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+
+
+        
     </footer>
 
 

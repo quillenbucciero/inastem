@@ -1,7 +1,7 @@
 * {
   box-sizing:border-box;
   text-decoration: none;
-  font-family: 'Alata', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   list-style-type: none;
 }
 a {
@@ -10,7 +10,6 @@ color: black;
 
 body {
 text-align: center;
-background-image: url('img/foto-tren.jpg');
 background-repeat: no-repeat;
 background-size: contain;
 }
@@ -27,7 +26,7 @@ background-size: contain;
   align-items: center;
   }
   .logo {
-  width: 100px;
+  width: 150px;
   }
   
   .menu {
@@ -44,6 +43,7 @@ background-size: contain;
   text-decoration: none;
   color: black;
   align-items: center;
+  font-size: 20px;
   }
   .menu li {
   padding: 0px 20px 0px 20px;  
@@ -85,11 +85,12 @@ background-size: contain;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  background-color: #bb1b29;
 }
 .contacto-item {
- 
-  width: 100%;
- 
+  width: 46%;
+  margin: 15px;
 }
 .contacto-sub-item {
   display: flex;
@@ -97,14 +98,16 @@ background-size: contain;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  color: white;
+  font-size: 25px;
 }
 .contacto-icons {
-  width: 30px;
-  padding: 5px;
+  width: 60px;
+  padding: 10px;
 }
 
 .wsp {
-  width: 50px;
+  width: 70px;
 }
 
 /*FOOTER*/

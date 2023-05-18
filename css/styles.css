@@ -379,9 +379,8 @@ footer a,li {
   }   
   
   .contenedor {
-    width: 1200px;
-  }
-  
+    width: 1000px;
+  }  
 
   /*BANNER*/
 
@@ -405,8 +404,7 @@ footer a,li {
 .contacto-item {
   width: 46%;
 }
-.contacto-sub-item {
- 
+.contacto-sub-item { 
   font-size: 25px;
 }
 .contacto-icons {
@@ -428,9 +426,6 @@ iframe {
 .wsp:hover{
   width: 75px;
 }
-
-
-
 
 /*FOOTER*/
 

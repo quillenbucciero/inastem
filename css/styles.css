@@ -43,6 +43,10 @@ header label {
   font-size: 20px;
   margin: 6px 0;
   cursor: pointer;
+  background: #004aad;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
 }
 header .contenedor {
   display: table;
@@ -62,6 +66,7 @@ header .contenedor {
   height: 50px;
   padding: 15px;
   border-bottom: 1px solid rgba(119, 117, 117, 0.479);
+  font-weight: bold;
 
 }
 .menu a:hover {
@@ -137,7 +142,7 @@ section {
 #productos {
   text-align: center;
   margin-top: 25px;
-  background: #bb1b2836;
+  background: #296ec95e;
 }
 
 #productos .contenedor {   
@@ -155,9 +160,8 @@ section {
 .productos-item {
   margin: 15px;
   position: relative;
-  height: 205px;
-  width: 305;
-  background: white;
+  height: 280px;
+  width: 280px;
 }
 .productos-item img {
   width: 100%; 
@@ -165,12 +169,12 @@ section {
 }
 .productos-item p {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   width: 100%;
   transform: translateX(-50%) translateY(-50%);
   color: white;
-  background-color: rgba(190, 44, 44, 0.8);
+  background-color: rgba(52, 62, 196, 0.863);
   padding: 10px;
 }
 
@@ -181,7 +185,7 @@ section {
 }
 
 #contacto {
-  background-color: #bb1b29;
+  background-color: #004aad;
   text-align: center;
   color: white;
 }
@@ -241,7 +245,7 @@ section {
 
 
 footer {
-  background-color: #bb1b29;
+  background-color: #004aad;
 }
 
 footer a,li {
@@ -296,24 +300,14 @@ footer a,li {
       height: auto;
       margin-top: -100px;
     }
-
-    .redes li {
-      margin: 0px 10px 10px 10px;
-      font-size: 30px;
-    }
-
-    .fin-footer {
-      display: flex;
-      width: 100%;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-between;
-      color: white;
+    
+    #banner .contenedor a {
       font-size: 25px;
     }
-  
+   
     .nosotros-item {
-      width: 20%;    
+      width: 20%; 
+      font-size: 20px;   
     }
 
     #contacto .contenedor {      
@@ -336,6 +330,22 @@ footer a,li {
       width: 400px;
       height:350px;
     }
+
+    .redes li {
+      margin: 0px 10px 10px 10px;
+      font-size: 30px;
+    }
+
+    .fin-footer {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      color: white;
+      font-size: 25px;
+    }
+  
 
 }
 

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,166 +15,155 @@
 </head>
 <body>
       <!--Header-->
-    <header>
-        <section class="header-container">
+    <header class="header-container">
 
-        <a href="index.html"><img class="logo" src="img/logoInastem.svg" alt="logo"></a>
+        <div class="contenedor">
 
-        <div class="dropdown">
-            <button class="dropbtn">Menu</button>
-            <div class="dropdown-content">
-                <li> <a href="home.html"> Inicio </a></li>
-                <li> <a href="html/nosotros.html">Nosotros </a></li>
-                <li><a href="html/productos.html">Productos</a></li>
-                <li><a href="#contacto-container">Contacto</a></li>
-            </div>
-        </div>
-        <ul class="menu">
-            <li> <a href="home.html"> Inicio </a></li>
-            <li> <a href="favourites.html">Nosotros </a></li>
-            <li><a href="shopping-cart.html">Productos</a></li>
-            <li><a href="#contacto-container">Contacto</a></li>
-        </ul>
+            <a href="index.html"><img class="logo" src="img/logoInastem.svg" alt="logo"></a>
 
-        </section>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="index.html"> Inicio </a>
+                <a href="#nosotros">Nosotros </a>
+                <a href="#productos">Productos</a>
+                <a href="#contacto-container">Contacto</a>
+            </nav>
+        </div>     
        
     </header>
-    <!--Header-->
+   <!--Header -->
 
-    <p>Fábrica de ventanillas para ómnibus, trenes y ventanas especiales.</p>
-
-    <h2 class="title">Nosotros</h2>
-
-    <section>
-
-        <article class="productos-item nosotros">
-            <div>
-                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
+    <main>
+        <section id="banner">
+            <img src="img/foto-tren.jpg" alt="Banner">
+            <div class="contenedor">
+            <h2>Fábrica de ventanillas para ómnibus, trenes y ventanas especiales</h2>
+            <a href="https://api.whatsapp.com/send?phone=+5491138056102&text=Hola!%20Vengo%20de%20tu%20p%C3%A1gina%20web%20y%20quiero%20pedir%20un%20presupuesto" >Solicitar presupuesto</a>
             </div>
-            <div>                
-                <p>Contamos con más de 20 años de experiencia en este sector, con atención personalizada y asesoramiento para cada uno de nuestros clientes</p>
-            </div>
-        </article>
+            
+        </section>
+    </main>  
 
-        <article class="productos-item">
-            <div>
-                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            </div>
-            <div>                
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-        </article>
+    <a  class="wsp" href="https://api.whatsapp.com/send?phone=+5491138056102&text=Hola!%20Vengo%20de%20tu%20p%C3%A1gina%20web%20y%20quiero%20pedir%20un%20presupuesto"><p class="icon-whatsapp"></p></a>  
+             
 
-        <article class="productos-item">
-            <div>
-                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            </div>
-            <div>                
-                <p> Necessitatibus obcaecati iure ipsum autem repellat ducimus perferendis aperiam, corporis, numquam eos modi impedit libero delectus fugiat odit possimus molestias non molestiae!</p>
-            </div>
+    <section id="nosotros">  
+        <h2 class="title">Nosotros</h2>
+        
+        <div class="contenedor">
+            <article class="nosotros-item">                
+                <img src="img/reloj.svg" alt="ícono de reloj ">                                                                                      
+                <p>Más de 20 años de experiencia</p>                
+            </article>
 
-    </section>
+            <article class="nosotros-item">                
+                <img src="img/medidas.svg" alt="ícono de medidas">                                                                                                    
+                <p>Diseños a medida</p>
+            </article>
+
+            <article class="nosotros-item">                
+                <img src="img/personas.svg" alt="ícono de personas">                                                                                                    
+                <p>Asesoramiento profesional</p>        
+            </article>
+            
+            <article class="nosotros-item">                
+                <img src="img/engranes.svg" alt="ícono de engranes">                                                                                    
+                <p>Procesos de fabricación propios</p>           
+            </article>
+
+        </div>                
+
+    </section>                               
+        
+    <section id="productos">
+
+        <h2 class="title">Productos y Servicios</h2>
+
+        <div class="contenedor">
+            <article class="productos-item">
+                <a href="html/productos.html"><img src="img/7.png" alt="Ventana"></a>
+                
+                <a href="html/ventanas.html"><p>Fabricación y reparación de ventanillas de aluminio para colectivos, trenes y maquinas viales</p> </a>
+                                        
+                
+            </article>
+            
+            <article class="productos-item">
+                <a href="html/accesorios.html"><img src="img/1.png" alt="accesorios para ventanas"></a>
+                
+                <a href="html/productos.html"> <p>Accesorios para ventanillas y burletes de entrega inmediata</p></a>
+                
+                
+            </article>
+
+            <article class="productos-item">
+                <a href="html/servicio.html"><img src="img/3.png" alt="Vidrio templado"></a>
+                
+                <a href="html/productos.html"><p>Servicio de colocación y diseño a medida</p></a>                                              
+            </article>
+
+        </div>
+        
+        
 
 
+    </section>   
 
-    <h2 class="title">Productos y Servicios</h2>
+    <section id="contacto">
 
-    <section class="productos-container">
-
-        <article class="productos-item">
-            <div>
-                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            </div>
-            <div>              
-                <p>Fabricación y reparación de ventanillas de aluminio para colectivos, trenes y maquinas viales</p>
-            </div>
-        </article>
-
-        <article class="productos-item">
-            <div>
-                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            </div>
-            <div>
-                <h3>NOMBRE PRODUCTO</h3>
-                <p>Venta de vidrio templado, accesorios para ventanillas y burletes de entrega inmediata</p>
-            </div>
-        </article>
-
-        <article class="productos-item">
-            <div>
-                <img  class="" src="../img/COMPLETAR.png" alt="COMPLETAR"> 
-            </div>
-            <div>
-                <h3>NOMBRE PRODUCTO</h3>
-                <p>Descripción</p>
-            </div>
-        </article>
-
-
-
-
-    </section>
-
-    <h2 class="title">Contacto</h2>
-
-    <section id="contacto-container">
-
+        <h2 class="title">Contacto</h2>
+        
+        <div class="contenedor">
 
         <article class="contacto-item">
-             <div class="contacto-sub-item">
-            <img  class="contacto-icons" src="img/png/001-llamada-telefnica.png" alt="Teléfono de línea"> 
-            <p>4663 2227</p>
-        </div>
+            <div class="contacto-sub-item">
+                <p class="icon-volume-control-phone"></p>
+                <p>4663 2227</p>
+            </div>
 
-        <div class="contacto-sub-item">
-            <img  class="contacto-icons" src="img/png/002-telfono-inteligente.png" alt="Número de celular"> 
-            <p>+ 549 11 0000 0000</p>
-        </div>
+            <div class="contacto-sub-item">
+                <p class="icon-mobile"></p> 
+                <p>+ 549 11 3805 6102</p>
+            </div>
 
-        <div class="contacto-sub-item">
-            <img  class="contacto-icons" src="img/png/correo-electronico-vacio.png" alt="Email"> 
-            <p>MAIL</p>
-        </div>
+            <div class="contacto-sub-item">
+                <p class="icon-mail"></p> 
+                <p>dunglass.in@gmail.com</p>
+            </div>
 
-        <div class="contacto-sub-item">
-            <img  class="contacto-icons" src="img/png/003-ubicacin.png" alt="Dirección"> 
-            <p>Rondeau 2044 - Villa de Mayo, Buenos Aires</p>
-        </div>
+            <div class="contacto-sub-item">
+                <p class="icon-location"></p>
+                <p>Carlos Pellegrini 4310, Villa de Mayo</p>
+            </div>
         </article>
         
-        <article class="contacto-item">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.1276113029553!2d-58.67804318501423!3d-34.49964895950561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca33374d18fb3%3A0x6ee42eb1ba002a94!2sRondeau%202044%2C%20B1614HMM%20Villa%20de%20Mayo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684161880507!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </article>
+        <article class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26305.053266701238!2d-58.693437529240065!3d-34.49954635112093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca3330ab783e1%3A0x2eb22b1c09dd2639!2sCarlos%20Pellegrini%204310%2C%20B1614BVQ%20Villa%20de%20Mayo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684410887890!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>               
+
+        </div>
+
        
-        
-
-    </section>
-
-    <button class="cta">Solicitar un presupuesto</button>
-
-    <a href=""> <img  class="wsp" src="img/png/005-whatsapp.png" alt= "Click aquí para enviar mensaje"></a>
+    </section>            
 
 
     <footer>
 
-        <ul class="footer-menu">
-            <li> <a href="home.html"> Inicio </a></li>
-            <li> <a href="html/nosotros.html">Nosotros </a></li>
-            <li><a href="html/productos.html">Productos</a></li>
-            <li><a href="#contacto-container">Contacto</a></li>
-        </ul>
-
-        <ul class="redes">
-            <li> <a href=""> <img class="contacto-icons" src="img/png/003-instagram.png" alt="Instagram de Inastem"> </a></li>
-            <li> <a href="https://www.facebook.com/inastem.dundich/"> <img class="contacto-icons" src="img/png/001-facebookBlanco.png" alt="Facebook de inastem"> </a></li>
-            <li><a href="https://twitter.com/inastem"> <img class="contacto-icons" src="img/png/002-twitterBlanco.png" alt="Twitter de Inastem"></a></li>
+        <div class="contenedor">
+            <ul class="redes">
+            <li> <a class="icon-instagram" href=""> </a></li>
+            <li> <a class="icon-facebook-official" href="https://www.facebook.com/inastem.dundich/"> </a></li>
+            <li><a  class="icon-twitter" href="https://twitter.com/inastem"></a></li>
         </ul>
 
         <ul class="fin-footer">        
-            <li> <a href="">Copyright © 2023 Inastem - Reservados todos los derechos</a></li>
-            <li><a href="https://www.linkedin.com/in/quill%C3%A9n-bucciero-78ba56207/">Página hecha por Quillén Bucciero</a></li>
-            
+            <li>Inastem &copy; 2023</li>
+            <li class="designBy"><a href="https://www.linkedin.com/in/quill%C3%A9n-bucciero-78ba56207/">Design By Quillén Bucciero</a></li>            
         </ul>
+        </div>
+
+        
        
         
     </footer>
